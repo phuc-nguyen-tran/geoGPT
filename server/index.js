@@ -9,7 +9,7 @@ app.use(express.json());
 
 const port = 5000;
 
-const API_KEY = "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";
+const API_KEY = "";
 
 app.get("/", async (req, res) => {
   res.json("Hello World!");
